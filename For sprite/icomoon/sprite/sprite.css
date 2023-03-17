@@ -1,0 +1,141 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.Galochka {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.Name-1 {
+  width: 24px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.Name-2 {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.Normal {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.X {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.X1 {
+  width: 32px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.X2 {
+  width: 32px;
+  height: 32px;
+  background-position: -288px 0;
+}
+.facebook {
+  width: 32px;
+  height: 32px;
+  background-position: -336px 0;
+}
+.instagram {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -432px 0;
+}
+.twitter {
+  width: 32px;
+  height: 32px;
+  background-position: -480px 0;
+}
+.Diligence {
+  width: 32px;
+  height: 32px;
+  background-position: -528px 0;
+}
+.Punctuality {
+  width: 32px;
+  height: 32px;
+  background-position: -576px 0;
+}
+.Strategy {
+  width: 30px;
+  height: 32px;
+  background-position: -624px 0;
+}
+.Technologies {
+  width: 32px;
+  height: 32px;
+  background-position: -672px 0;
+}
+.Logo_1 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -48px;
+}
+.Logo_2 {
+  width: 59px;
+  height: 32px;
+  background-position: -96px -48px;
+}
+.Logo_3 {
+  width: 59px;
+  height: 32px;
+  background-position: -192px -48px;
+}
+.Logo_4 {
+  width: 59px;
+  height: 32px;
+  background-position: -288px -48px;
+}
+.Logo_5 {
+  width: 59px;
+  height: 32px;
+  background-position: -384px -48px;
+}
+.Logo_6 {
+  width: 59px;
+  height: 32px;
+  background-position: -480px -48px;
+}
+.Logo_7 {
+  width: 59px;
+  height: 32px;
+  background-position: -576px -48px;
+}
+.Logo_8 {
+  width: 59px;
+  height: 32px;
+  background-position: -672px -48px;
+}
+.Logo_9 {
+  width: 59px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+.Logo_10 {
+  width: 59px;
+  height: 32px;
+  background-position: -96px -96px;
+}
+.Logo_11 {
+  width: 59px;
+  height: 32px;
+  background-position: -192px -96px;
+}
+.Logo_12 {
+  width: 59px;
+  height: 32px;
+  background-position: -288px -96px;
+}
+

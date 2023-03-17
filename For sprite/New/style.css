@@ -1,0 +1,60 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.galochka {
+  width: 1.25em;
+}
+
+.email {
+  width: 0.75em;
+}
+
+.Line {
+  width: 0.111328125em;
+}
+
+.Line-2 {
+  width: 0.111328125em;
+}
+
+.phone {
+  width: 0.75em;
+}
+
+.Logo_1 {
+  width: 1.857421875em;
+}
+
+.Logo_2 {
+  width: 1.857421875em;
+}
+
+.Logo_3 {
+  width: 1.857421875em;
+}
+
+.Logo_4 {
+  width: 1.857421875em;
+}
+
+.Logo_5 {
+  width: 1.857421875em;
+}
+
+.Logo_6 {
+  width: 1.857421875em;
+}
