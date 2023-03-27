@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+/*
+  .hero_header {
+    font-size: 56px;
+    width: 100%;
+  }
+
+  .advan-header {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }*/
+
+  /*
+  .advan_container {
+    width: 1128px;
+  }*/
+
+  .advan_item{
+    max-width: 264px;
+  }
+
+  .advan_item_perevagy {
+    display: flex;
+  
+  }
+
+
+  .advan_header {
+    font-size: 36px;
+  }
+
+  /* Team */
+
+  .team_container {
+    margin-top: 120px;
+  }
+  .team_header {
+    padding-top: 120px;
+  }
+  .team_persons {
+    width: 1140px;
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  .team_persons:not(;:last-child) {
+    margin-right: 24px;
+  }
+
+
+  /*--Customers--*/
+
+  
+
+  .sections_customers {
+    padding-top: 96px;
+    padding-bottom: 72px;
+  }
+
+  .subscribe_title {
+    padding-bottom: 16px;
+  }
+
+  /*--Footer--*/
+  /*
+  .footer {
+    width: 100%;
+    display: flex;
+  }
+
+  .footer_left {
+    display: flex;
+  }
+
+  .button_subscribe {
+    display: inline;
+  }
+
+  .footer_left_studio {
+    margin-right: 120px;
+  }
+
+  .footer_right {
+    width: 100%;
+    margin-left: 80px;
+  }
+*/
+}
+

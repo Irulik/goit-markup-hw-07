@@ -1,0 +1,154 @@
+@media screen and (max-width: 768px) {
+
+    
+    /*------------Advantages---------------*/
+    .container {
+        /* width: calc((100%-24) / 2); */
+        max-width: 584px;
+    }
+
+    .header_conr{
+        margin: 0;
+        max-width: none;
+    }
+     .advan_container{
+        margin: 0;
+        max-width: none;
+    }
+
+    .advan-header {
+        font-size: 36px;
+        text-align: left;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+
+    .advan_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+ 
+
+    .advan_item {
+        max-width: 356px;
+        padding-bottom: 72px;
+        flex-basis: calc(50% - 12px);
+    }
+
+    .advan_item:nth-child(odd) {
+        margin-right: 24px;
+    }
+    .advan_item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .advan_header {
+        font-size: 36px;
+    }
+
+    .advan_item_perevagy {
+        display: none;
+    }
+
+    .examp {
+        display: none;
+    }
+
+
+    /* Team */
+    .team{
+        margin-top: 24px;
+        padding-top: 96px;
+        padding-bottom: 64px;
+    }
+    .team_header{
+        padding-top: 0;
+    }
+    .team_container {
+    margin-top: 0;
+}
+
+    .team_persons {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 72px;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .team_list {
+        max-width: 264px;
+        margin-bottom: 64px;
+    }
+    .team_list:not(:last-child) {
+        margin-right: 0;
+    }
+    .team_list:nth-child(odd) {
+        margin-right: 24px;
+    }
+
+    /*--Customers--*/
+
+    .clients_list {
+
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
+
+    }
+
+    .sections_customers {
+        padding-top: 96px;
+        padding-bottom: 72px;
+    }
+
+    /* FOOTER */
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer_left{
+        justify-content: flex-start;
+    }
+    .footer_left_studio {
+        max-width: 264px;
+        margin-right: 24px;
+    }
+
+    .footer_media {
+        /* padding-left: 12px; */
+    }
+
+    .subscribe_input {
+        margin-bottom: 16px
+    }
+
+    .footer_right {
+        margin-top: 72px;
+        margin-left: 0;
+    }
+
+    .button_subscribe {
+        display: inline;
+    }
+
+    .subscribe_input {
+        margin-bottom: 16px
+    }
+
+
+    .subscribe_btn {
+        max-width: 264px;
+        margin-right: 24px;
+    }
+
+    .subscribe_contact button {
+        height: 40px;
+    }
+}
