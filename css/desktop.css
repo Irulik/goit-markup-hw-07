@@ -1,93 +1,84 @@
-@media screen and (max-width: 1200px) {
-/*
-  .hero_header {
-    font-size: 56px;
-    width: 100%;
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1128px;
   }
 
-  .advan-header {
-    font-size: 20px;
-    text-align: left;
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }*/
+  /*------Advantages--------*/
+  .advan {
+    padding: 120px 0;
+  }
 
-  /*
-  .advan_container {
-    width: 1128px;
-  }*/
-
-  .advan_item{
-    max-width: 264px;
+  .advan_list {
+    display: flex min-width: 1128px;
   }
 
   .advan_item_perevagy {
     display: flex;
-  
+    row-gap: 24px;
+    max-width: 264px;
+  }
+
+  .advan-header {
+    color: #2E2F42;
+  }
+
+  /*-------------Team----------------*/
+  .team {
+    padding: 120px 0;
+  }
+
+  .team_list {
+    flex-basis: calc((100% - 72px) / 4);
   }
 
 
-  .advan_header {
-    font-size: 36px;
+  /*-----Customers----*/
+
+  .sections-customers {
+    padding: 120px 0;
   }
 
-  /* Team */
-
-  .team_container {
-    margin-top: 120px;
-  }
-  .team_header {
-    padding-top: 120px;
-  }
-  .team_persons {
-    width: 1140px;
-    display: flex;
-    padding-bottom: 120px;
+  .clients-item {
+    width: calc((100% - 120px) / 6);
   }
 
-  .team_persons:not(;:last-child) {
-    margin-right: 24px;
+  .clients_item {
+    width: 168px;
+    height: 88px;
   }
 
 
-  /*--Customers--*/
+  /*-----Footer--------*/
 
-  
-
-  .sections_customers {
-    padding-top: 96px;
-    padding-bottom: 72px;
-  }
-
-  .subscribe_title {
-    padding-bottom: 16px;
-  }
-
-  /*--Footer--*/
-  /*
   .footer {
-    width: 100%;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
   }
-
   .footer_left {
+    margin: auto;
     display: flex;
   }
-
-  .button_subscribe {
-    display: inline;
-  }
-
-  .footer_left_studio {
+  .footer_left_studio{
     margin-right: 120px;
   }
-
-  .footer_right {
-    width: 100%;
-    margin-left: 80px;
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
   }
-*/
-}
 
+  .footer-form {
+    margin-top: 0px;
+  }
+
+  .footer-content-flex {
+    gap: 120px;
+  }
+  .subscribe_contact{
+    display: flex;
+  }
+  .subscribe_form{
+    margin-left: 0;
+  }
+
+
+}

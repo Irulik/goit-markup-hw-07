@@ -12,13 +12,14 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="./css/desktop.css">
-    <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/mobile-menu.css">
     <link rel="stylesheet" href="./css/mobile_first.css">
+    <link rel="stylesheet" href="./css/header.css">
 </head>
 
 <body>
@@ -116,10 +117,10 @@
                         </li>
                     </ul>
                 </div>
-            </div>       
+            </div>
         </div>
-         </header>
-  <!-------------/Section Social mobile box---------------->
+    </header>
+    <!-------------/Section Social mobile box---------------->
     <main>
 
         <!-- Hero image-->
@@ -127,7 +128,8 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero_header">Effective Solutions for Your Business</h1>
-                <button type="button" class="hero_btn js-open-menu"  id="openButton" data-modal-open>Order Service</button>
+                <button type="button" class="hero_btn js-open-menu" id="openButton" data-modal-open>Order
+                    Service</button>
             </div>
         </section>
 
@@ -555,7 +557,7 @@
                             <span class="subscribe_btn">
                                 <input class="subscribe_input" name="subscribe" placeholder="E-mail" required>
                             </span>
-                        
+
                             <button type="submit" class="button_subscribe">Subscribe
                                 <svg class="icon_plane" width="24" height="20">
                                     <use href=" ./For sprite/New/symbol-defs-15.03.svg#airplane-icon"></use>
@@ -572,6 +574,8 @@
         </div>
     </footer>
     <!-- /Footer-->
+
+    <!-- Modal -->
 
     <div class="backdrop is-hidden js-menu-container" id="myDiv" data-modal>
         <div class="modal">
@@ -644,13 +648,13 @@
         const myDiv = document.getElementById("myDiv");
 
         openButton.addEventListener("click", () => {
-        myDiv.classList.remove("is-hidden");
-        myDiv.classList.add("is-open");
+            myDiv.classList.remove("is-hidden");
+            myDiv.classList.add("is-open");
         });
 
         closeButton.addEventListener("click", () => {
-        myDiv.classList.remove("is-open");
-        myDiv.classList.add("is-hidden");
+            myDiv.classList.remove("is-open");
+            myDiv.classList.add("is-hidden");
         });
     </script>
     <script src="js/modal.js"></script>

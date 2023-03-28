@@ -1,113 +1,188 @@
 /*---------------Hero image*-------------*/
 
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 480px) {
+
+  .container {
+    max-width: 428px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+  }
+
+
+
+  /*------Банер--------*/
+
 
   .hero_header {
-    width: 100%;
+    font-weight: 700;
     font-size: 36px;
-  }
-/*
-  .advan_container {
+    line-height: 1.1;
     width: 100%;
+    margin-bottom: 72px;
+
+    height: 80px;
 
   }
-
-  .advan {
-    padding-top: 0;
-  }*/
-
-  .hero {
-    margin-bottom: auto;
+  .hero{
+    background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg1x.jpg);
   }
 
-  .team_container {
-    margin-top: auto;
-  }
 
-  .advan_list {
-    margin-right: auto;
-    padding-top: 0;
+  /*------Advantages--------*/
+
+  .advan_item_perevagy {
+    padding: 96px 0;
   }
 
   .advan-header {
-    font-size: 36px;
-    text-align: center;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
   }
 
   .advan-text {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    text-align: left;
+  }
+
+  .advan_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 72px;
+  }
+
+
+  .advan {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .advan_container {
+    min-width: 320px;
+
   }
 
   .advan_item_perevagy {
     display: none;
   }
 
+
+
   .advan_item {
-    width: 100%;
-    padding-top: 72px;
+    min-width: 396px;
     padding-bottom: 0;
     flex-basis: auto;
-    max-width: initial;
+    text-align: center;
+
   }
-  .advan_item:nth-child(odd) {
+
+  .advan_item:not(:last-of-type) {
     margin-right: 0;
-}
-
-  .advan_item:last-of-type {
-    padding-bottom: 96px;
   }
 
-  .examp_container {
+  .advan-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40/36);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    padding-bottom: 8px;
+  }
+
+  .advan_text {
+    text-align: left;
+  }
+
+  /*-------- Examples-------0*/
+  .examp {
+    padding-bottom: 0;
+  }
+
+  .examp_header {
     display: none;
   }
 
-  .team_container {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+  .examp_list {
+    display: none;
   }
 
-  /* Team */
+  /*-------------Team----------------*/
+  .team_persons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 
+  }
 
   .team_list {
-    max-width: 264px;
-    margin: 36px auto !important;
+    width: 264px;
+    height: 100%;
+    margin: 0 auto;
   }
 
-  /*--Customers--*/
+  .team_list:not(:last-child) {
+    margin-bottom: 72px;
+    margin-right: auto;
+  }
+
+
+  .team_persons:not(:last-child) {
+    margin-right: 28px;
+  }
+
+  .team_container {
+    max-width: 450px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 0 auto;
+  }
+
+  /*-----Customers----*/
+
+  .section_customers {
+    padding: 96px 0;
+  }
+
+  .clients-item {
+    width: calc((100% - 16px) / 2);
+  }
+
+  .clients_item {
+    width: 190px;
+    height: 88px;
+  }
 
   .clients_list {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  /*--Footer--*/
+  .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .sections_customers {
-    padding-top: 96px;
-    padding-bottom: 72px;
-  }
-
-
-
-  /*--Footer--*/
-    .footer{
+  .footer_left {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-  }
-  .footer_left{
     margin-right: 0;
-  }
-  .footer_left_studio{
-    margin: 0;
-    padding: 0;
   }
 
   .container_foot {
@@ -117,17 +192,9 @@
 
   .footer_left_studio {
     padding-bottom: 72px;
-  }
-
-  .footer_left_studio {
     max-width: 268px;
   }
 
-  .footer_left {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
   .footer_logo {
     display: flex;
@@ -140,85 +207,65 @@
   }
 
   .footer_right {
+    margin-left: 0;
     text-align: center;
     max-width: 396px;
     width: 100%;
   }
 
-  .subscribe_contact{
+  .footer__left_media {
+    margin-bottom: 72px;
+  }
+
+  .subscribe_form {
+    margin: auto;
+  }
+
+  .subscribe_contact {
     flex-direction: column;
     align-items: center;
   }
+
   .subscribe_input {
     width: 100%;
     margin-bottom: 16px
   }
-  .subscribe_btn{
-    margin: 0;
-    max-width: 396px;
+  .subscribe_btn {
     width: 100%;
   }
+
 
   .button_subscribe {
     display: inline;
     max-width: 165px;
   }
 
+
 }
 
 
 
 
-
-
-
-
-
-
-/*@media screen and (min-width: 480px) {
-  .footer {
-    max-width: 450px;
-  }
-
-}*/
-
-/*
-@media screen and (max-width: 480px) {
-
-  .container_foot {
-    display: flex;
-    justify-content: center;
-  }
-
-
-
-  /*
-  .footer_left {
+@media screen and (max-width: 1200px) {
+   .advan_item_perevagy {
+        display: none;
+    }
+    .team_persons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }*/
-
-/*
-  .footer_logo {
-    text-align: center;
+    gap: 64px 24px;
+}
+  .mobile_socials {
+    gap: 26px;
   }
 
-  
-
-  .footer_right {
-    text-align: center;
-    padding-top: 72px;
-
+  .mobiel_address_tel {
+    font-size: 26px;
   }
 
-  .subscribe_input {
-    width: 100%;
-    margin-bottom: 16px
+  .modal {
+    min-width: 320px;
+    padding: 5px;
   }
-
-  .button_subscribe {
-    display: inline;
-
-
-  }
+}
