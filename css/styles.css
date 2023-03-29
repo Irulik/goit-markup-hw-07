@@ -64,12 +64,17 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1158px;
+	/*max-width: 1158px;*/
+	max-width: 426px;
 	margin: 0 auto;
-	/* padding: 0 15px; */
+	 padding: 0 15px; 
 	/* Fill: Solid #F4F4FD */
 
 }
+
+/*body.modal-open {
+	overflow: hidden;
+}*/
 
 /*---------------------------------------------------------*/
 
@@ -104,6 +109,9 @@ ul {
 .header_conr {
 	display: flex;
 	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1158px;
 }
 
 .header_nav {
@@ -306,7 +314,7 @@ ul {
 }
 
 .advan_item {
-	width: 264px;
+	/*width: 264px;*/
 }
 
 .advan_item:not(:last-of-type) {
@@ -921,6 +929,7 @@ footer {
 	height: 100%;
 	z-index: 100;
 	transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
+	overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
@@ -934,6 +943,7 @@ footer {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	width: 100%;
 	width: 408px;
 	min-height: 576px;
 	background-color: #FCFCFC;

@@ -1,16 +1,15 @@
 /*---------------Hero image*-------------*/
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
 
   .container {
-    max-width: 428px;
-    padding-right: 8px;
-    padding-left: 8px;
+    max-width: 426px;
+    padding-right: 15px;
+    padding-left: 15px;
 
   }
-
 
 
   /*------Банер--------*/
@@ -22,12 +21,26 @@
     line-height: 1.1;
     width: 100%;
     margin-bottom: 72px;
-
     height: 80px;
 
   }
-  .hero{
-    background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg1x.jpg);
+
+  .hero {
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg1x.jpg);
+
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  /*@media screen (min-resolution: 2dppx)*/
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg2x.jpg);
+    }
   }
 
 
@@ -57,7 +70,6 @@
     row-gap: 72px;
   }
 
-
   .advan {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -73,9 +85,8 @@
   }
 
 
-
   .advan_item {
-    min-width: 396px;
+    max-width: 396px;
     padding-bottom: 0;
     flex-basis: auto;
     text-align: center;
@@ -94,7 +105,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
 
   .advan_text {
@@ -121,6 +132,9 @@
     align-items: center;
 
   }
+ .team {
+    padding-bottom: 96px;
+  }
 
   .team_list {
     width: 264px;
@@ -139,9 +153,9 @@
   }
 
   .team_container {
-    max-width: 450px;
-    padding-right: 8px;
-    padding-left: 8px;
+    max-width: 426px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 0 auto;
   }
 
@@ -149,6 +163,9 @@
 
   .section_customers {
     padding: 96px 0;
+  }
+  .sections_customers {
+    padding-top: 96px;
   }
 
   .clients-item {
@@ -172,10 +189,13 @@
 
 
   /*--Footer--*/
+
+
   .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
   }
 
   .footer_left {
@@ -183,15 +203,18 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 0;
+    margin-bottom: 72px;
   }
 
   .container_foot {
     display: flex;
     justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .footer_left_studio {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     max-width: 268px;
   }
 
@@ -213,9 +236,7 @@
     width: 100%;
   }
 
-  .footer__left_media {
-    margin-bottom: 72px;
-  }
+  .footer__left_media {}
 
   .subscribe_form {
     margin: auto;
@@ -230,14 +251,15 @@
     width: 100%;
     margin-bottom: 16px
   }
+
   .subscribe_btn {
     width: 100%;
   }
 
-
   .button_subscribe {
     display: inline;
     max-width: 165px;
+    margin-left: 0;
   }
 
 
@@ -246,16 +268,22 @@
 
 
 
-@media screen and (max-width: 1200px) {
-   .advan_item_perevagy {
-        display: none;
-    }
-    .team_persons {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advan_item_perevagy {
+    display: none;
+  }
+
+  .team_persons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 64px 24px;
-}
+  }
+
+  .team {
+    padding-bottom: 96px;
+  }
+
   .mobile_socials {
     gap: 26px;
   }
@@ -266,6 +294,23 @@
 
   .modal {
     min-width: 320px;
-    padding: 5px;
+    /*padding: 0;*/
+    /*padding: 5px*/;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .modal {
+    /*width: 310px;*/
+		/*width: calc(100% - 2 * 15px);*/
+    /*max-width: 100%;*/
+    padding-right: 18px;
+    padding-left: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( - 50%, -50%);
+    max-width: calc(100% - 60px);
+    width: 100%;
   }
 }

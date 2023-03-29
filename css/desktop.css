@@ -1,6 +1,22 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1128px;
+    max-width: 1158px;
+  }
+
+
+  .hero {
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-desktop-optimized/people-office-1x.jpg);
+  }
+
+  /*@media screen (min-resolution: 2dppx)*/
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-desktop-optimized/people-office-2x.jpg);
+    }
   }
 
   /*------Advantages--------*/
@@ -20,6 +36,22 @@
 
   .advan-header {
     color: #2E2F42;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+  }
+
+  .advan_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 
   /*-------------Team----------------*/
@@ -54,13 +86,16 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .footer_left {
     margin: auto;
     display: flex;
   }
-  .footer_left_studio{
+
+  .footer_left_studio {
     margin-right: 120px;
   }
+
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -73,10 +108,12 @@
   .footer-content-flex {
     gap: 120px;
   }
-  .subscribe_contact{
+
+  .subscribe_contact {
     display: flex;
   }
-  .subscribe_form{
+
+  .subscribe_form {
     margin-left: 0;
   }
 

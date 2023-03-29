@@ -2,54 +2,58 @@
   display: none;
 }
 
-  .mobile_menu_open {
-    display: none;
-  }
+.mobile_menu_open {
+  display: none;
+}
 
-  .header_nav_list {
-    display: flex;
-  }
+.header_nav_list {
+  display: flex;
+}
 
-  .container {
-    width: 100%;
-  }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
-  .mobile_menu {
-    display: none;
-  }
+.mobile_menu {
+  display: none;
+}
 
-  .mobile_menu_open {
-    display: none;
-  }
+.mobile_menu_open {
+  display: none;
+}
 
-  .header_nav_list {
-    display: flex;
-  }
+.header_nav_list {
+  display: flex;
+}
 
-  .address{
-    display: flex;
-  }
-.address_mail{
+.address {
+  display: flex;
+}
+
+.address_mail {
   margin-right: 40px;
 }
+
 .address_item {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	color: var(--purple);
-	padding-top: 6px;
-	padding-bottom: 6px;
-	display: block;
-	transition-property: color;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: block;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address_item:hover,
 .address_item:focus {
-	color: var(--grey-syniy);
+  color: var(--grey-syniy);
 }
 
 
@@ -58,25 +62,27 @@
   .container {
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
   }
 
-
-  .header_nav_list{
+  .header_nav_list {
     display: none;
   }
-  .header_address{
+
+  .header_address {
     display: none;
   }
-  .mobile_menu_open{
-    display: block;
-  }
-  .is_open{
+
+  .mobile_menu_open {
     display: block;
   }
 
-   .advan_container {
+  .is_open {
+    display: block;
+  }
+
+  .advan_container {
     padding-left: 8px;
-   
   }
 
   .highlight {
@@ -87,12 +93,14 @@
 /* ---------------------------/Mobile---------------------------- */
 /* ---------------------------Tablet---------------------------- */
 @media screen (max-width: 768px) {
-  .header_conr{
+  .header_conr {
     max-width: initial;
   }
-    .header_nav_list{
+
+  .header_nav_list {
     display: none;
   }
+
   .container {
     width: 100%;
   }
@@ -100,17 +108,19 @@
   address {
     display: none;
   }
+
   .mobile_menu_open {
     display: block;
-}
+  }
 
 }
+
 /* ---------------------------/Tablet---------------------------- */
 
 
 
 /* ---------------------------Desktop---------------------------- */
-@media screen and (max-width: 1200px) {  
+@media screen and (max-width: 1200px) {
   .header_conr {
     display: flex;
     align-items: center;
@@ -148,10 +158,11 @@
   }
 
 
-  .address{
+  .address {
     flex-direction: column;
   }
-    .address_item {
+
+  .address_item {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
