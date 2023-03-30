@@ -1,10 +1,9 @@
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   .mobile_menu {
     position: fixed;
     width: 100%;
     height: 100%;
-    /*max-height: 796px;*/
     z-index: 1000;
     top: 0;
     left: 0;
@@ -30,7 +29,6 @@
     position: relative;
     padding-left: 40px;
     padding-top: 80px;
-    /*padding-bottom: 284px;*/
   }
 
   .mobile_menu_close_btn {
@@ -93,8 +91,6 @@
   .mobile_address_box {
     width: 100%;
     position: relative;
-   /*margin-left: 40px;
-    margin-bottom: 48px;*/
   }
 
   .mobiel_address_tel {
@@ -123,8 +119,7 @@
     color: #434455;
   }
 
-  /*---------------------------Section Social mobile box-------------------------------------*/
-  .mobile_list_name {
+   .mobile_list_name {
     align-items: center;
   }
 
@@ -157,7 +152,4 @@
     height: 24px;
   }
 
-}
-
-/*---------------------------/Section Social mobile box-------------------------------------*/
-
+} */

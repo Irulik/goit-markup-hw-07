@@ -58,7 +58,8 @@
 
 
 /* ---------------------------Mobile---------------------------- */
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .container {
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +81,7 @@
   .is_open {
     display: block;
   }
-
+/*
   .advan_container {
     padding-left: 8px;
   }
@@ -88,11 +89,11 @@
   .highlight {
     color: #404BBF;
   }
-}
-
+*/
 /* ---------------------------/Mobile---------------------------- */
 /* ---------------------------Tablet---------------------------- */
-@media screen (max-width: 768px) {
+
+
   .header_conr {
     max-width: initial;
   }
@@ -101,11 +102,8 @@
     display: none;
   }
 
-  .container {
-    width: 100%;
-  }
 
-  address {
+  .address {
     display: none;
   }
 
@@ -113,15 +111,9 @@
     display: block;
   }
 
-}
-
-/* ---------------------------/Tablet---------------------------- */
 
 
-
-/* ---------------------------Desktop---------------------------- */
-@media screen and (max-width: 1200px) {
-  .header_conr {
+    .header_conr {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -181,6 +173,79 @@
   .address_item:focus {
     color: var(--grey-syniy);
   }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .header_conr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header_nav_logo {
+    padding-top: 24px;
+    padding-bottom: 22px;
+  }
+
+  .mobile_menu_open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .header_conr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header_nav_logo {
+    padding-top: 24px;
+    padding-bottom: 22px;
+  }
+
+  .mobile_menu_open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
+
+
+  .address {
+    flex-direction: column;
+  }
+
+  .address_item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--purple);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .address_item:hover,
+  .address_item:focus {
+    color: var(--grey-syniy);
+  }
+}
+
+/* ---------------------------/Tablet---------------------------- */
+
+
+
+/* ---------------------------Desktop---------------------------- */
+@media screen and (min-width: 1200px){
+
 }
 
 /* ---------------------------/Desktop---------------------------- */
