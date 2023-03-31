@@ -70,21 +70,21 @@
 		margin-bottom: 40px
 	}
 
-	.mobile_menu_close_icon {
-		background-color: var(--cornflower);
+	/*.mobile_menu_close_icon {
+		/*background-color: var(--cornflower);*/
 		width: 8px;
 		height: 8px;
-		border-radius: 50%;
+		/*border-radius: 50%;
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		box-sizing: border-box;
-		padding: 0
-	}
+		padding: 0*/
+	}*/
 
 	.mobile_address {
-		padding-top: auto;
+		margin-top: auto;
 		position: relative;
 		width: auto;
-		padding-bottom: 48px
+		margin-bottom: 48px
 	}
 
 	.mobile_menu_list_item {

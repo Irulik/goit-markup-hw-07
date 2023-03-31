@@ -243,7 +243,7 @@ ul {
 	text-align: center;
 	letter-spacing: .02em;
 	color: var(--main-light-color);
-	width: 496px;
+	max-width: 496px;
 	margin: auto;
 	margin-bottom: 48px;
 }
