@@ -75,58 +75,51 @@
                     </li>
                     <li class="mobile_menu_list_item"><a href="#" class="mobiele_link highlight">Contacts</a></li>
                 </ul>
-                <div class="mobile_nav">
-                    <div class="mobile_address_box">
-                        <ul class="mobile_address">
-                            <li class="mobiel_address_tel">
-                                <a href="mobile_address_item">+11 (000) 111-11-11</a>
-                            </li>
-                            <li class="mobiel_address_mail">
-                                <a href="mobile_address_it">info@devstudio.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <!--------Section Social mobile Box----->
-
-                <div class="mobile_list_name">
-                    <ul class="mobile_socials">
-                        <li class="mobile_social">
-                            <a class="mobile_link" href="">
-                                <svg class="icon_mobile_social" width="24" height="24">
-                                    <use href="./images/symbol-defs_1.svg#instagram">
-                                    </use>
-                                </svg>
-                            </a>
+            </div>
+            <div class="container">
+                <ul class="mobile_address">
+                    <!--<div class="mobile_address_box">-->
+                        <li class="mobiel_address_tel">
+                            <a href="mobile_address_item">+11 (000) 111-11-11</a>
                         </li>
-                        <li class="mobile_social">
-                            <a class="mobile_link" href="">
-                                <svg class="icon_mobile_social" width="24" height="24">
-                                    <use href="./images/symbol-defs_1.svg#twitter">
-                                    </use>
-                                </svg>
-                            </a>
+                        <li class="mobiel_address_mail">
+                            <a href="mobile_address_it">info@devstudio.com</a>
                         </li>
-                        <li class="mobile_social">
-                            <a class="mobile_link" href="">
-                                <svg class="icon_mobile_social" width="24" height="24">
-                                    <use href="./images/symbol-defs_1.svg#facebook">
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="mobile_social">
-                            <a class="mobile_link" href="">
-                                <svg class="icon_mobile_social" width="24" height="24">
-                                    <use href="./images/symbol-defs_1.svg#linkedin">
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                </ul>
+                <ul class="mobile_socials">
+                    <li class="mobile_social">
+                        <a class="mobile_link" href="">
+                            <svg class="icon_mobile_social" width="24" height="24">
+                                <use href="./images/symbol-defs_1.svg#instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile_social">
+                        <a class="mobile_link" href="">
+                            <svg class="icon_mobile_social" width="24" height="24">
+                                <use href="./images/symbol-defs_1.svg#twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile_social">
+                        <a class="mobile_link" href="">
+                            <svg class="icon_mobile_social" width="24" height="24">
+                                <use href="./images/symbol-defs_1.svg#facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile_social">
+                        <a class="mobile_link" href="">
+                            <svg class="icon_mobile_social" width="24" height="24">
+                                <use href="./images/symbol-defs_1.svg#linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -579,8 +572,8 @@
 
                 <!-- Footer-form -->
 
-                <div class="footer_right">
-                    <form class="subscribe_form" autocomplete="off">
+                <div class="">
+                    <form class="footer_right subscribe_form" autocomplete="off">
                         <p class="subscribe_title">Subscribe</p>
                         <div class="subscribe_contact">
                             <span class="subscribe_btn">
@@ -655,13 +648,13 @@
                     <span class="form_input">Comment</span>
                     <textarea name="user_message" class="modal_form_message" placeholder="Text input"></textarea>
                 </label>
-
-                <input id="user_policy" type="checkbox" name="user_policy" class="modal_form_check visually_hidden"
-                    value="">
-                <label for="user_policy" class="checkbox_desc">I accept the terms and conditions of the&nbsp;<a href=""
-                        class="policy">Privacy Policy</a>
-                </label>
-
+                <span class="user_wrapper">
+                    <input id="user_policy" type="checkbox" name="user_policy" class="modal_form_check visually_hidden"
+                        value="">
+                    <label for="user_policy" class="checkbox_desc">I accept the terms and conditions of the&nbsp;<a
+                            href="" class="policy">Privacy Policy</a>
+                    </label>
+                </span>
                 <button type="submit" class="form_submit">Send</button>
 
             </form>
