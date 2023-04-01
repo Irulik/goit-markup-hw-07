@@ -1379,6 +1379,10 @@ footer {
 	display: none;
 }
 
+.mobile_address {
+	margin-bottom: 48px;
+}
+
 .header_nav_list {
 	display: flex;
 }

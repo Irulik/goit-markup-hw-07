@@ -18,12 +18,7 @@
 		/*height: 80px;*/
 	}
 
-	.hero {
-		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg1x.jpg);
-		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg2x.jpg);
-		padding-top: 112px;
-		padding-bottom: 112px;
-	}
+
 
 	.advan_item_perevagy {
 		display: none;
@@ -286,6 +281,7 @@
 		line-height: 0
 	}
 
+
 	.header_con {
 		display: flex;
 		max-width: 426px;
@@ -348,7 +344,11 @@
 
 
 @media screen and (max-width:428px) {
-		@media(min-device-pixel-ratio:2),
+	.hero {
+		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Images-mobile-optimized/Dark-bg1x.jpg);
+	}
+
+	@media(min-device-pixel-ratio:2),
 	(-webkit-min-device-pixel-ratio:2),
 	(min-resolution:192dpi),
 	(min-resolution:2dppx) {

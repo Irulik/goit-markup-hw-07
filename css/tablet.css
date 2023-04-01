@@ -9,13 +9,6 @@
 		padding-left: 15px;
 	}
 
-	.hero {
-		padding-top: 112px;
-		padding-bottom: 112px;
-		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-tablets-optimized/Dark-bg-1x.jpg);
-		background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-tablets-optimized/Dark-bg-2x.jpg);
-	}
-
 	.hero_header {
 		margin-bottom: 36px;
 	}
@@ -126,12 +119,12 @@
 	.footer_left {
 		display: flex;
 		flex-direction: row;
-		
+
 	}
 
 	.footer_left_studio {
-	margin-left: 0;
-		}
+		margin-left: 0;
+	}
 
 
 	.footer__left_media {
@@ -142,12 +135,10 @@
 		flex-direction: column;
 		align-content: space-between;
 		margin-top: 0;
-margin-left: 24px;
+		margin-left: 24px;
 	}
 
-	.subscribe_title {
-
-	}
+	.subscribe_title {}
 
 	.subscribe_contact {
 		display: flex;
@@ -252,8 +243,10 @@ margin-left: 24px;
 	}
 }
 
-@media screen and (min-width:428px) and (max-width:1199px) {
-
+@media screen and (min-width:428px) and (max-width:767px) {
+	.hero {
+	background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/images-tablets-optimized/Dark-bg-1x.jpg);
+}
 	@media screen(min-device-pixel-ratio:2),
 	(-webkit-min-device-pixel-ratio:2),
 	(min-resolution:192dpi),
